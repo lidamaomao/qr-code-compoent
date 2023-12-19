@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 0.68rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5e1ef;
+  font-size: 1rem;
+  font-family: 'Outfit', sans-serif;
+}
+.qr-code-card {
+  max-width: 20rem;
+  /* height: 497px; */
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px 12px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  /* width: 288px; */
+  /* height: 288px; */
+  border-radius: 20px;
+}
+content {
+  padding: 0 28px;
+  text-align: center;
+}
+
+.title {
+  color: #1f314f;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.summary {
+  color: #7d889e;
+  font-weight: 400;
+}

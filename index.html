@@ -4,77 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-      body {
-        display: flex;
-        width: 100vw;
-        height: 100vh;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #d5e1ef;
-        font-size: 15px;
-        font-family: 'Outfit', sans-serif;
-      }
-      .qr-code-card {
-        width: 320px;
-        height: 497px;
-        background-color: #fff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        border-radius: 20px;
-      }
-      figure > img {
-        width: 288px;
-        height: 288px;
-        border-radius: 20px;
-      }
-      figcaption {
-        padding: 0 28px;
-        text-align: center;
-      }
-
-      .title {
-        color: #1f314f;
-        font-size: 22px;
-        font-weight: 700;
-      }
-      .summary {
-        color: #7d889e;
-        font-weight: 400;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <figure class="qr-code-card">
-      <img src="./images/image-qr-code.png" alt="The QR Code" />
-      <figcaption>
-        <p class="title">Improve your front-end skills by building projects</p>
+    <main class="qr-code-card">
+      <img src="./images/image-qr-code.png" alt="The QR code goes to frontendmentor.io" />
+      <content>
+        <h1 class="title">Improve your front-end skills by building projects</h1>
         <p class="summary">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-      </figcaption>
-    </figure>
+      </content>
+    </main>
 
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
-      <a href="#">lidamaomao</a>.
-    </div>
+    <footer class="attribution">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+        <a href="#">lidamaomao</a>.
+      </p>
+    </footer>
   </body>
 </html>
